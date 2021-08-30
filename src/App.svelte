@@ -1,7 +1,4 @@
 <script>
-    import { onMount } from 'svelte'
-
-    import Editor from './Editor.svelte'
     import Guilds from './Guilds.svelte'
     import Oauth2Receiver from './Oauth2Receiver.svelte'
     import Profile from './Profile.svelte'

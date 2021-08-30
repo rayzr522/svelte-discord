@@ -6,7 +6,7 @@
 
     function login() {
         const oauth2Url = new URL('https://discord.com/oauth2/authorize')
-        oauth2Url.searchParams.set('client_id', '282525438331322368')
+        oauth2Url.searchParams.set('client_id', __CLIENT_ID__)
         oauth2Url.searchParams.set('redirect_uri', window.location.href)
         oauth2Url.searchParams.set('response_type', 'token')
         oauth2Url.searchParams.set('scope', 'identify email guilds')
