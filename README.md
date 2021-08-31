@@ -8,9 +8,10 @@ This is a small app which authenticates with Discord in the browser using an [im
 
 ## setup
 
-```
+```bash
 # clone the repo
 git clone git@github.com:rayzr522/svelte-discord.git
+cd svelte-discord
 
 # install dependencies
 npm ci
