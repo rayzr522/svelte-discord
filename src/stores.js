@@ -19,7 +19,7 @@ function createCookieStore() {
             lastCookie = document.cookie
             refresh()
         }
-    }, 500)
+    }, 5000)
 
     return {
         subscribe,

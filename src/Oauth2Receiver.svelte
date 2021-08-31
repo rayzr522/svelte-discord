@@ -10,8 +10,9 @@
                     .split('&')
                     .map((item) => item.split('='))
             )
-            document.cookie = `discord-token=${oauth2Payload.access_token}; max-age=${oauth2Payload.expires_in}`
-            cookies.refresh()
+            cookies.add(
+                `discord-token=${oauth2Payload.access_token}; max-age=${oauth2Payload.expires_in}`
+            )
             history.replaceState(
                 '',
                 document.title,
